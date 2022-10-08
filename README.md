@@ -48,7 +48,7 @@ Our model success would be evaluated based on
 - [`project_3.4_deployment.ipynb`](project_3.4_deployment.ipynb): Notebook to consolidate all the previous notebooks's output, upload to google cloud and visualise it via streamlit
 
 ## Environment
-- [`environment.yml`](environment.yml): Dedicated environment for this project
+- [`dsi-p3.yml`](dsi-p3.yml): Dedicated environment for this project
 
 # Methodology
 ## Data Extraction
@@ -101,7 +101,7 @@ The best model/algorithms from binary classification, multiclass classification,
 - Google Cloud
 - Streamlit
 
-The final model is now live on streamlit: [Link](https://erjieyong-subreddit-inspector-streamlit-app-kriiop.streamlitapp.com/)
+The final model is now live on streamlit: [Link](https://erjieyong-reddit-inspector-streamlit-app-xldhnq.streamlitapp.com/)
 
 # Summary
 Through our EDA, we found that 
