@@ -81,7 +81,7 @@ if submit:
         """, unsafe_allow_html=True)
 
 
-        st.caption('<p class = "myclass">📃 Article Summary</p>', unsafe_allow_html=True)
+        st.caption('<p class = "myclass">Article Summary 📃</p>', unsafe_allow_html=True)
         st.markdown(predictions['summary'])
         st.caption("""
         <p style="color: grey;font-size: 80%;">
