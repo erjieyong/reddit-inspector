@@ -125,7 +125,7 @@ Random Forest | CountVectorizer (all submissions) | 0.9601
 Extra Forest | CountVectorizer (all submissions) | 0.9660
 Random Forest | CountVectorizer (all submissions) | 0.9580
 
-*We will be using the model with CountVectorizer preprocessing using multinomial naive bayes as it gives the highest cross validated accuracy at 96.53%
+*While we download the highest performing model for CV accuracy is actually Extra Forest, we did not proceed ahead with Extra Forest because there's an issue downloading the model from MLflow as well as using joblib> Hence, we proceed with second highest model (MultinomialNB with CountVectorizer) for the purpose of streamlit visualisation.
 
 
 The model result table for **multiclass classification**
@@ -151,7 +151,10 @@ Our model is also able to accurately classify between Science and Philosophy sub
 With the successful deployment of our app, our users would be able to more accurately decide which subreddit to post to and which subcategories to choose from for Science subreddit. In addition, we are also able to advise our users on the sentiment and objectivity of their shared url to help them evaluate the post's credibility in order to sustain peer review. Finally, to encourage our users to give more description to their posts, we succesfully executed a summarising feature that generates a summary based on the shared url.  
 
 # Further Evaluation
+- Fix the save error in binary classification for extra trees model. 
+- Perform hyperparameter tuning on for extra trees model for binary classification.
 - Improve on multiclass classification performance
+- Word correction / Suggestion to user to potentially improve comments and upvotes
 - Regression analysis to predict the number of comments and upvotes for the submitted post
 - Auto posting after user is satisfied with post results
-- Spam and ham detection for both subreddits
+- Spam detection for both subreddits
